@@ -20,7 +20,7 @@ This is a tangible way for you to show us:
 ## The Mission Specs
 
 #### 1: Credit data ####
-* Given this [json](prequalresults.json) file, please design a sql table or tables that would be query-able.
+* Given this [json](prequalresult.json) file, please design a sql table or tables that would be query-able.
 * Deliverable A: The code that does the parsing, in any language of your choice (we prefer Python 3).
 * Deliverable B: The sql schema diagram
 
