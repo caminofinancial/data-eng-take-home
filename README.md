@@ -24,7 +24,13 @@ This is a tangible way for you to show us:
 * Deliverable A: The code that does the parsing, in any language of your choice (we prefer Python 3).
 * Deliverable B: The sql schema diagram
 
-#### 2: ETL pipeline  ####
+#### 2: SQL ####
+* For the question below, you may use the SQL DB Fiddle https://www.db-fiddle.com/f/82DzJYdoLWuiPyxvxufERN/0
+* Question 1: Write a query that joins both tables using _OWNER_ field.
+* Question 2: Write a query to counts the number of duplicates in _car_ table for each _company_.
+* Question 3: Write a query to list every entry in _car_ table and its associated _company_ owner. If an entry doesn't have an owner in the _company_ table, then print 'not found' in the cell.
+
+#### 3: ETL pipeline  ####
 * Now imagine for a moment, we are receiving 1000 records per second. Please design an ETL data pipeline that will be able to handle this and then eventually send everything to a data warehouse ...
 * Deliverable: A diagram depicting your ETL data pipeline. Please elaborate also your tool of choice, processing frequency and cost.
 
